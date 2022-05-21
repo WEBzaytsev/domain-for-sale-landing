@@ -1,0 +1,27 @@
+ENG
+
+1. Installation
+
+To upload a site to a free hosting, you need to unpack the archive in the root folder of the hosting.
+Then at the address of the domain (which will be linked to this hosting), this page will be displayed.
+
+2. Mail setup
+
+To set up sending the form to your mail, you need to open the api.php file, find line 23
+$ToEmail = "test@gmail.com";
+And instead of "test@gmail.com" , you should write your mail ( also in quotes ).
+After that, you can save the change file. All applications that the form will send will be sent to the specified mail.
+
+RU
+
+1. Установка
+
+Для загрузки сайта на свободный хостинг, необходимо распаковать архив в корневой папке хостинга. 
+Тогда по адресу домена ( который будет привязан к этому хостингу ), будет отображаться данная страница. 
+
+2. Настройка почты
+
+Для настройки отправки формы на вашу почту, вам необходимо открыть файл api.php , найти строку 23
+$ToEmail = "test@gmail.com"; 
+И вместо "test@gmail.com" , Вы должны написать свою почту ( так же в кавычках ). 
+После этого можно сохранить файл изменений. Все заявки , которые будет отправлять форма, будут приходить на указанную почту.
